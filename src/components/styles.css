@@ -1,0 +1,101 @@
+body {
+    background-color: white;
+    color: black;
+    padding: 40px;
+    font-family: Arial;
+    text-align: center;
+  }
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em 2em;
+    background-color: #00a896;
+    color: white;
+    display: flex;
+    align-items:center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 1em;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li{
+    float:right
+}
+
+nav h2 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+body {
+    font-family: Arial;
+}
+
+.header {
+    display: inline-block; 
+    background-color: #e3eee5;
+    padding: 5px;
+}
+
+.popup {
+    padding: 1em;
+    background-color: #e3eee5;
+    color: #00a896;
+    text-align: center;
+    margin: 2em 0;
+}
+
+.btn-logo {
+    width: 20px;
+    height: 20px;
+    margin-right: 0.5em;
+    vertical-align: middle;
+}
+
+
+.author-info {
+    display: flex;
+    align-items: center;
+    gap: 20px; 
+}
+
+.author-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; 
+    object-fit: cover;
+    border: 5px solid #e3eee5;
+}
+
+.spark_logo{
+    width: 70px;
+    height: 70px;
+    margin-right: 0.5em;
+    vertical-align: middle;
+}
+
+.paws {
+    width: auto;
+    height: 30px;
+    vertical-align: middle;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+footer {
+    resize: none;
+    padding: 1em;
+    background-color:#00a896;
+    color: black;
+    text-align: center;
+}
